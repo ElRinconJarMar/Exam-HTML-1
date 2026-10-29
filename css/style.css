@@ -432,7 +432,14 @@ body {
         width: 90%;
         margin: 3rem auto;
     }
-
+    #header{
+        height:200px
+    }
+    #header img {
+    width: 100px;
+    height: 100px;
+    margin-left: 35px
+}
     #intro-info,
     #intro-image {
         width: 100%;
