@@ -337,7 +337,6 @@ body {
     height: 15rem;
     background-color: #123C69;
 }
-
 #footer-intro{
     text-align: center;
     color:white;
@@ -422,6 +421,10 @@ body {
     #coments-section{
         width:90vw;
     }
+    #footer-intro{
+        display:none;
+    }
+
 }
 
 
@@ -464,5 +467,14 @@ body {
     #coments-section{
         width:100vw;
         flex-direction: column-reverse;
+    }
+    #footer-intro{
+        display:none;
+    }
+    #footer-copyright{
+        display:none;
+    }
+    #footer-explorer{
+        font-size: 1.75rem;
     }
 }
