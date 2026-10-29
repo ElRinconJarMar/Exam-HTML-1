@@ -377,9 +377,24 @@ body {
     }
 }
 
+#goodbye{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    margin:-2rem auto 5rem auto;
+    height: 45vw;
+}
 
+#goodbye-image img{
+    border-radius: 400px;
+    height: 30vw;
+    margin-bottom: 2rem;
+}
 
-
+#goodbye-text{
+    font-size: large;
+}
 /* Tablet: más pequeño de 992px */
 @media screen and (max-width: 992px) {
     #introduction {
